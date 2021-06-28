@@ -1,0 +1,33 @@
+ .header{
+display: flex;
+}
+
+.small-col{
+width: 25%;
+
+}
+
+.container{
+   display: flex;
+  justify-content: space-between;
+  max-width: 95%;
+  margin: 0 auto;
+  max-width: 980px;
+}
+
+.col{
+background: #CD113B;
+color:white;
+padding: 0.5rem;
+margin: 10px;
+border-radius: 20px;
+
+}
+
+h2{
+text-align: center;
+ 
+}
+p{
+ text-align: center;
+}
