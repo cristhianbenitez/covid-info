@@ -1,1 +1,1 @@
-# vanilla-todo
+Covid Info App
