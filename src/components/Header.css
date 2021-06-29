@@ -1,7 +1,9 @@
 .header-container{
  background-color: #FF7600;
-padding: 0;
-margin: 0;
+ text-align: center;
+padding: 0.25rem;
+font-weight: 200px;
+font-size: 1.5rem;
 }
 h1{
  padding: 30px;

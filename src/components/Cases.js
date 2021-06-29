@@ -18,36 +18,57 @@ const Cases = ( )=>  {
 
  return ( 
   <>
-<div className="container">
+    <div className="container">
        <div className="col small-col">
         <h2>Total Cases</h2>
-        <p>Number of Cases</p>
+        <p>{data.cases}</p>
         </div>
        <div className="col small-col">
         <h2>Today Cases</h2>
-        <p>number of cases</p>
+        <p>{data.todayCases}</p>
         </div>
         <div className="col small-col">
         <h2>Total Deaths</h2>
-        <p>number of deaths</p>
+        <p>{data.deaths}</p>
          </div>
-   </div>
+      </div>
 
   <div className="container">
        <div className="col small-col">
         <h2>Recovered</h2>
-        <p>total of Recovered</p>
+        <p>{data.recovered}</p>
         </div>
        <div className="col small-col">
         <h2>Active Cases</h2>
-        <p>active cases</p>
+        <p>{data.active}</p>
         </div>
        <div className="col small-col">
         <h2>Total Cases</h2>
-        <p>total number of cases</p>
+        <p>{data.cases}</p>
         </div>
   
-  </div>
+    </div>
+     <div className="container">
+       <div className="col small-col">
+        <h2>Cases per One Millon</h2>
+        <p>{data.casesPerOneMillion}</p>
+        </div>
+       <div className="col small-col">
+        <h2>Tests per One Million</h2>
+        <p>{data.testsPerOneMillion}</p>
+        </div>
+       <div className="col small-col">
+        <h2>Deaths per One Million</h2>
+        <p>{data.deathsPerOneMillion}</p>
+        </div>
+      
+    </div>
+    
+       <div>   
+                <center className="footer">
+                    <h1>Source : disease.sh</h1>
+                </center>
+            </div>
   </>
    )
 }
